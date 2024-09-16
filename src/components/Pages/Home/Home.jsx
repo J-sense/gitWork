@@ -4,6 +4,7 @@ import Services from './Services'
 import CaseStudies from './CaseStudies'
 import Part2 from './Part2'
 import Letstalk from './Letstalk'
+import Footer from './Footer'
 
 const Home = () => {
   return (
@@ -11,8 +12,9 @@ const Home = () => {
       <Herosection />
       <Services />
       <CaseStudies />
-      <Part2 />
+      {/* <Part2 /> */}
       <Letstalk />
+      <Footer />
     </div>
   )
 }
