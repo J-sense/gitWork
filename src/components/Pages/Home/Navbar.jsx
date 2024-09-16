@@ -40,22 +40,14 @@ const Navbar = () => {
 
         {/* Nav Links (for desktop) */}
         <ul className="hidden md:flex items-center space-x-6 text-[#FFFFFF]">
-          <li>
-            <NavLink
-              to="/home"
-              className="hover:text-gray-300 navFont"
-              activeClassName="font-bold text-base text-gray-300"
-            >
-              Home
-            </NavLink>
-          </li>
+          
           <li>
             <NavLink
               to="/about"
               className="hover:text-gray-300 navFont"
               activeClassName="font-bold text-base text-gray-300"
             >
-              About
+              About us
             </NavLink>
           </li>
           <li>

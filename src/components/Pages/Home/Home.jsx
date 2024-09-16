@@ -14,7 +14,7 @@ const Home = () => {
       <CaseStudies />
       {/* <Part2 /> */}
       <Letstalk />
-      <Footer />
+    
     </div>
   )
 }
