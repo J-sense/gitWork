@@ -52,7 +52,7 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink
-              to="/services"
+              to="/service"
               className="hover:text-gray-300 navFont"
               activeClassName="font-bold text-base text-gray-300"
             >
@@ -61,11 +61,11 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink
-              to="/projects"
+              to="/testimonials"
               className="hover:text-gray-300 navFont"
               activeClassName="font-bold text-base text-gray-300"
             >
-              Projects
+              Testimonials
             </NavLink>
           </li>
           <li>
@@ -86,7 +86,7 @@ const Navbar = () => {
         {/* Mobile Menu */}
         {isOpen && (
           <ul className="md:hidden absolute top-16 left-0 right-0 bg-zinc-800  text-white flex flex-col items-center space-y-4 py-4">
-            <li>
+            {/* <li>
               <NavLink
                 to="/home"
                 className="hover:text-gray-300 navFont "
@@ -95,7 +95,7 @@ const Navbar = () => {
               >
                 Home
               </NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink
                 to="/about"
@@ -103,27 +103,27 @@ const Navbar = () => {
                 activeClassName="font-bold text-base text-gray-300"
                 onClick={() => setIsOpen(false)}
               >
-                About
+                About us
               </NavLink>
             </li>
             <li>
               <NavLink
-                to="/services"
+                to="/testimonials"
                 className="hover:text-gray-300 navFont"
                 activeClassName="font-bold text-base text-base text-[#]"
                 onClick={() => setIsOpen(false)}
               >
-                Services
+                Testimonials
               </NavLink>
             </li>
             <li>
               <NavLink
-                to="/projects"
+                to="/service"
                 className="hover:text-gray-300 navFont"
                 activeClassName="font-bold text-base text-[#FFFFFF]"
                 onClick={() => setIsOpen(false)}
               >
-                Projects
+                Service
               </NavLink>
             </li>
             <li>

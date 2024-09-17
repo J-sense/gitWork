@@ -9,7 +9,7 @@ const Hero = () => {
     <div>
       <div className="md:flex justify-between md:my-16 w-[95%] mx-auto">
         <div className="md:mt-32 mt-10 md:w-3/2 w-full tracking-tighter  ">
-          <h1 className="md:text-6xl text-3xl  navFont text-[#F5F5F5]  font-bold leading-snug">
+          <h1 className="md:text-6xl text-3xl  navFont text-[#F5F5F5]  font-semibold  leading-snug">
             We are changing the way UK-based companies think about hiring
             Software Developers
           </h1>
@@ -48,7 +48,7 @@ const Hero = () => {
           Our Vision
         </p>
         <div className="md:flex gap-3 items-center">
-          <div className="w-[60%]">
+          <div className="md:w-[60%]">
             <div className="bg-[#292929] p-5 rounded-lg">
               <div className="flex justify-between">
                 <p className="text-[28px] navFont text-[#FFFFFF] w-2/3">
@@ -107,7 +107,7 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <div className="w-[40%]">
+          <div className="md:w-[40%]">
             <div className="bg-[#292929] p-5 rounded-lg mt-3">
               <div className="flex justify-between">
                 <p className="text-[28px] navFont text-[#FFFFFF] w-2/3 tracking-tight leading-9">

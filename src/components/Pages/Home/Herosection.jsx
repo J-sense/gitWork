@@ -5,7 +5,7 @@ const Herosection = () => {
     <div>
       <div className="md:flex justify-between md:my-16 w-[95%] mx-auto">
         <div className="md:mt-32 mt-10 md:w-3/2 w-full tracking-tighter  ">
-          <h1 className="md:text-6xl text-3xl  navFont text-[#F5F5F5]  leading-snug">
+          <h1 className="md:text-6xl text-3xl  navFont text-[#F5F5F5]  font-semibold  leading-snug">
             Struggling to find reliableSoftware Developers ?
           </h1>
           <p className="md:w-1/2 navFont my-5 text-[#A0A0A1]">
