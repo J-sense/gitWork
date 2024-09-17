@@ -2,7 +2,6 @@ import React from "react";
 import img1 from "/people1.jpg";
 import img2 from "/people2.jpg";
 import img3 from "/people3.jpeg";
-import img4 from "/people4.jpeg";
 import ficon from "/fcon.svg"
 const data = [
   {
